@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jineesh P | Portfolio</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <a href="#home" class="logo">
+        Jineesh<span>P.</span>
+    </a>
+
+    <ul class="nav-links">
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="{{ url_for('about_details') }}">About</a>
+        </li>
+
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+
+    <!-- Background Glow -->
+
+    <div class="glow glow-one"></div>
+
+    <div class="glow glow-two"></div>
+
+
+    <!-- SOCIAL ICONS -->
+
+    <div class="social-icons">
+
+        <a href="https://www.linkedin.com/in/jineesh-p-692783309"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            LinkedIn
+
+        </a>
+
+
+        <a href="#"
+           target="_blank">
+
+            GitHub
+
+        </a>
+
+
+        <a href="mailto:jineeshp2002@gmail.com">
+
+            Email
+
+        </a>
+
+
+        <a href="tel:+917907566341">
+
+            Call
+
+        </a>
+
+    </div>
+
+
+    <!-- HERO LEFT -->
+
+    <div class="hero-left">
+
+
+        <p class="hello hero-animate hello-animate">
+
+            Hello, I'm
+
+        </p>
+
+
+        <h1 class="hero-animate name-animate">
+
+            Jineesh <span>P.</span>
+
+        </h1>
+
+
+        <h2 class="hero-animate role-animate">
+
+            Executive System Administrator
+
+        </h2>
+
+
+        <h3 class="hero-animate skills-animate">
+
+            IT Systems • ERP-Project Management   • Software Coordination
+
+        </h3>
+
+
+        <p class="hero-description hero-animate description-animate">
+
+            I manage IT systems, support business applications,
+            coordinate software solutions and help organizations
+            improve workflows through technology.
+
+        </p>
+
+
+        <div class="hero-buttons hero-animate buttons-animate">
+
+
+            <a href="#about" class="primary-btn">
+
+                View My Work →
+
+            </a>
+
+
+            <a href="{{ url_for('static', filename='JineeshCV.pdf') }}"
+               class="secondary-btn"
+               download>
+
+                Download CV
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- PROFILE IMAGE -->
+
+    <div class="profile-area">
+
+
+        <div class="profile-glow"></div>
+
+        <div class="circle-line"></div>
+
+
+        <img
+            src="{{ url_for('static', filename='profile.png') }}"
+            alt="Jineesh P"
+            class="profile-image">
+
+
+    </div>
+
+
+    <!-- HERO RIGHT -->
+
+    <div class="hero-right">
+
+
+        <h2>
+
+            Building
+
+            <br>
+
+            Better Systems
+
+            <br>
+
+            for a <span>Smarter</span>
+
+            <br>
+
+            Tomorrow
+
+        </h2>
+
+
+        <div class="line"></div>
+
+
+    </div>
+
+
+    <!-- SCROLL -->
+
+    <a href="#about" class="scroll-down">
+
+        <span>Scroll Down</span>
+
+        ↓
+
+    </a>
+
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about-section">
+
+
+    <div class="about-container">
+
+
+        <!-- ABOUT TEXT -->
+
+        <div class="about-left">
+
+
+            <p class="section-tag">
+
+                ABOUT ME
+
+            </p>
+
+
+            <h2>
+
+                Who <span>I Am</span>
+
+            </h2>
+
+
+            <p>
+
+                I am Jineesh, an IT professional with experience
+                in system administration, business applications,
+                software testing and ERP coordination.
+
+            </p>
+
+
+            <p>
+
+                I enjoy solving real-world business problems
+                through technology and continuously learning
+                new software and development skills.
+
+            </p>
+
+<a href="{{ url_for('about_details') }}" class="about-more-btn">
+    More About Me →
+</a>
+
+
+            <!-- FEATURES -->
+
+            <div class="about-features">
+
+
+                <div class="feature">
+
+                    <div class="icon">
+
+                        ⚙
+
+                    </div>
+
+
+                    <h3>
+
+                        System Administrator
+
+                    </h3>
+
+
+                    <p>
+
+                        Managing IT systems and user support.
+
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="icon">
+
+                        &lt;/&gt;
+
+                    </div>
+
+
+                    <h3>
+
+                        Software Coordination
+
+                    </h3>
+
+
+                    <p>
+
+                        Working with teams for implementation.
+
+                    </p>
+
+                </div>
+
+
+                <div class="feature">
+
+                    <div class="icon">
+
+                        ◉
+
+                    </div>
+
+
+                    <h3>
+
+                        Technology Driven
+
+                    </h3>
+
+
+                    <p>
+
+                        Always learning new technologies.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!-- ABOUT IMAGE -->
+
+        <div class="about-image-box">
+
+
+            <div class="image-glow"></div>
+
+
+            <img
+                src="{{ url_for('static', filename='IMG2.jpeg') }}"
+                alt="Jineesh P">
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="skills-section">
+
+
+    <p class="section-tag">
+
+        EXPERTISE
+
+    </p>
+
+
+    <h2>
+
+        My <span>Skills</span>
+
+    </h2>
+
+
+    <div class="skills-grid">
+
+
+        <div class="skill-card">
+
+            <h3>01</h3>
+
+            <h4>
+
+                System Administration
+
+            </h4>
+
+            <p>
+
+                User management, application support
+                and IT coordination.
+
+            </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>02</h3>
+
+            <h4>
+
+                ERP Coordination
+
+            </h4>
+
+            <p>
+
+                Requirements, workflows, testing
+                and implementation support.
+
+            </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>03</h3>
+
+            <h4>
+
+                Python Development
+
+            </h4>
+
+            <p>
+
+                Python, Flask, Django
+                and application development.
+
+            </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+            <h3>04</h3>
+
+            <h4>
+
+                Web Development
+
+            </h4>
+
+            <p>
+
+                HTML, CSS, JavaScript
+                and responsive design.
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="experience-section">
+
+
+    <div class="section-heading">
+
+
+        <p class="section-tag">
+
+            EXPERIENCE
+
+        </p>
+
+
+        <h2>
+
+            Professional <span>Journey</span>
+
+        </h2>
+
+
+        <p class="experience-intro">
+
+            My professional journey in IT systems,
+            software coordination and technology.
+
+        </p>
+
+
+    </div>
+
+
+    <div class="timeline">
+
+
+        <!-- EXPERIENCE 1 -->
+
+        <div class="timeline-item">
+
+
+            <div class="timeline-dot"></div>
+
+
+            <div class="timeline-content">
+
+
+                <div class="experience-top">
+
+
+                    <span class="experience-status">
+
+                        CURRENT
+
+                    </span>
+
+
+                    <span class="experience-date">
+
+                        January 2025 – Present
+
+                    </span>
+
+
+                </div>
+
+
+                <h3>
+
+                    Executive – System Administrator
+
+                </h3>
+
+
+                <h4>
+
+                    Cliffline Shipping India Pvt. Ltd.
+
+                </h4>
+
+
+                <p>
+
+                    Managing IT systems, business applications,
+                    shipping ERP coordination and software
+                    implementation across branch offices.
+
+                </p>
+
+
+                <div class="experience-tags">
+
+                    <span>System Administration</span>
+
+                    <span>ERP-Project management</span>
+
+                    <span>Software Testing</span>
+
+                    <span>IT Support</span>
+
+                </div>
+
+
+                <ul class="experience-list">
+
+                    <li>
+
+                        Manage IT systems and software across branch offices.
+
+                    </li>
+                    <li>Manage IT systems and software across 9 branches (Mumbai, Chennai, Cochin, Kolkata, Tuticorin,
+Vizag, Mundra, Delhi, Ludhiana) for 100+ users
+</li>
+
+                    <li>
+
+                        Handle business application setup, support and issue coordination.
+
+                    </li>
+
+                    <li>
+
+                        Coordinate the development of a new in-house shipping ERP.
+
+                    </li>
+
+                    <li>
+
+                        Work with users to collect requirements and improve workflows.
+
+                    </li>
+
+                    <li>
+
+                        Support software testing and user training.
+
+                    </li>
+
+                    <li>
+
+                        Manage user access, roles and system security.
+
+                    </li>
+
+                    <li>
+
+                        Customize documents and system features based on company requirements.
+
+                    </li>
+
+                </ul>
+
+
+                <a href="/experience/cliffline"
+                   class="experience-btn">
+
+                    View Company & Role →
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!-- EXPERIENCE 2 -->
+
+        <div class="timeline-item">
+
+
+            <div class="timeline-dot"></div>
+
+
+            <div class="timeline-content">
+
+
+                <div class="experience-top">
+
+
+                    <span class="experience-status">
+
+                        EXPERIENCE
+
+                    </span>
+
+
+                    <span class="experience-date">
+
+                        Python Development
+
+                    </span>
+
+
+                </div>
+
+
+                <h3>
+
+                   Full Stack Python Developer Mentor 
+                </h3>
+
+
+                <h4>
+
+                   G-TEC computer Education
+
+                </h4>
+
+
+                <p>
+
+                      <ul class="experience-list">
+
+                    <li>
+
+                        Guided students through Python and full-stack development courses, providing hands-on experience
+with real-world applications.
+
+
+                    </li>
+                    <li>Developed curriculum and learning materials for Python and full-stack development, enhancing
+student engagement and understanding.
+</li>
+</li>
+
+                    <li>
+
+                        Mentored students on live projects, helping them integrate backend Python, Django, SQL and frontend
+HTML,CSS, JavaScript technologies.
+
+
+                    </li>
+
+                    <li>
+
+                       Enabled students to build end-to-end applications, from conceptualization to deployment,
+strengthening their full- stack development skills
+
+                    </li>
+ <a href="/experience/cliffline"
+                   class="experience-btn">
+
+                    View Company & Role →
+
+                </a>
+                </p>
+
+
+                <div class="experience-tags">
+
+                    <span>Python</span>
+
+                    <span>Django</span>
+
+                    <span>HTML</span>
+
+                    <span>JavaScript</span>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <!-- EXPERIENCE 3 -->
+
+        <div class="timeline-item">
+
+
+            <div class="timeline-dot"></div>
+
+
+            <div class="timeline-content">
+
+
+                <div class="experience-top">
+
+
+                    <span class="experience-status completed-status">
+
+                        COMPLETED
+
+                    </span>
+
+
+                    <span class="experience-date">
+
+                        April 2024 – August 2024
+
+                    </span>
+
+
+                </div>
+
+
+                <h3>
+
+                    Full Stack Python Developer 
+
+                </h3>
+
+
+                <h4>
+
+                    iDatalytics
+
+                </h4>
+
+
+                <p>
+
+                    <ul class="experience-list">
+
+                    <li>
+
+                        Manage IT systems and software across branch offices.
+
+                    </li>
+                    <li>Developed and deployed web applications using Python Django for the backend and HTML,CSS
+JavaScript frontend.
+
+</li>
+
+                    <li>
+
+                       Designed and integrated RESTful APIs to improve communication between front-end and back-end
+systems
+
+                    </li>
+
+                    <li>
+
+                        Implemented and optimized SQL/NoSQL databases to ensure efficient data storage and retrieval.
+
+                    </li>
+
+                    <li>
+
+                       Collaborated with cross-functional teams, including data scientists to create cohesive application
+
+                    </li>
+
+                    <li>
+
+                        Actively participated in code reviews and bug fixing, enhancing code quality and application
+performance
+
+
+                    </li>
+
+                     <a href="/experience/cliffline"
+                   class="experience-btn">
+
+                    View Company & Role →
+
+                </a>
+
+                </p>
+
+
+                <div class="experience-tags">
+
+                    <span>Python</span>
+
+                    <span>Django</span>
+
+                    <span>Flask</span>
+
+                    <span>SQL</span>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects-section">
+
+    <p class="section-tag">
+        PROJECTS
+    </p>
+
+    <h2>
+        Featured <span>Work</span>
+    </h2>
+
+
+    <div class="projects-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <div class="project-card">
+
+            <span>ERP</span>
+
+            <h3>
+                Shipping ERP System
+            </h3>
+
+            <p>
+                Software requirement coordination,
+                workflow planning and user testing.
+            </p>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+
+        <div class="project-card">
+
+            <span>IT</span>
+
+            <h3>
+                Business Application Support
+            </h3>
+
+            <p>
+                User support, access management
+                and technical coordination.
+            </p>
+
+        </div>
+
+
+        <!-- PROJECT 3 -->
+
+        <div class="project-card">
+
+            <span>2023 • WEB SECURITY</span>
+
+            <h3>
+                Online Security Service
+            </h3>
+
+            <p>
+                Developed an online security services platform as a
+                mini-project, focusing on web development and secure
+                database management.
+            </p>
+
+        </div>
+
+
+        <!-- PROJECT 4 -->
+
+        <div class="project-card">
+
+            <span>2024 • FULL STACK</span>
+
+            <h3>
+                Online Wedding Dress Rental Store
+            </h3>
+
+            <p>
+                Developed an online wedding dress rental platform as a
+                main project, providing users with a seamless and
+                secure rental experience.
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- EXPLORE MORE BUTTON -->
+
+    <div class="projects-explore">
+
+        <a href="{{ url_for('projects') }}"
+           class="explore-projects-btn">
+
+            <span class="btn-text">
+                Explore More Projects
+            </span>
+
+            <span class="btn-arrow">
+                →
+            </span>
+
+        </a>
+
+    </div>
+
+
+</section>
+
+
+<section id="contact" class="contact-section">
+
+    <p class="section-tag">
+        CONTACT
+    </p>
+
+    <h2>
+        Let's <span>Connect</span>
+    </h2>
+
+    <p>
+        Send me a message and I will get back to you.
+    </p>
+
+
+    <form class="contact-form">
+
+        <input
+            type="text"
+            placeholder="Your Name"
+            required
+        >
+
+
+        <input
+            type="email"
+            placeholder="Your Email"
+            required
+        >
+
+
+        <input
+            type="text"
+            placeholder="Subject"
+        >
+
+
+        <textarea
+            placeholder="Write your message..."
+            required
+        ></textarea>
+
+
+        <button type="submit">
+
+            Send Message →
+
+        </button>
+
+
+        <p class="form-message"></p>
+
+
+    </form>
+
+</section>
+
+<footer>
+
+
+    <p>
+
+        Email:
+        jineeshp2002@gmail.com
+
+    </p>
+
+
+    <p>
+
+        Phone:
+        +91 7907566341
+
+    </p>
+
+
+    <p>
+
+        © 2026 Jineesh P.
+        All Rights Reserved.
+
+    </p>
+
+
+</footer>
+
+
+<script src="{{ url_for('static', filename='script.js') }}">
+</script>
+
+
+</body>
+
+</html>
